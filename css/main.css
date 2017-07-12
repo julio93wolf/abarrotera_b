@@ -2,18 +2,23 @@ body{
 	background-color: #E0E0E0;
 }
 header{
-	margin: 0px;
-	width: 100%;
-	background-color: #3949ab;
+	background-color: #D50000;
+}
+footer{
+	background-color: #bdbdbd;
 }
 #wrapper{
 	background-color: #FFFFFF;
 }
-#search{
-	float: left;
+#header_login{
+	margin-top:15px;
 }
-#login{
-	float: right;
+#pnl_danger{
+	border-color: #d9534f;
+}
+#pnl_danger_heading{
+	background-color: #d9534f;
+	color: white;
 }
 
 /* CUSTOMIZE THE CAROUSEL
