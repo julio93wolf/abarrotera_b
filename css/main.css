@@ -2,32 +2,39 @@ body{
 	background-color: #E0E0E0;
 }
 header{
-	background-color: #D50000;
+	background-color: #6A1B9A;
 }
 footer{
-	background-color: #bdbdbd;
+	background-color: #263238;
 }
+
 #wrapper{
 	background-color: #FFFFFF;
 }
 #header_login{
 	margin-top:15px;
 }
-#pnl_danger{
-	border-color: #d9534f;
+.pnl_aside{
+	border-color: #6A1B9A;
 }
-#pnl_danger_heading{
-	background-color: #d9534f;
+.pnl_aside > .panel-heading{
+	background-color: #6A1B9A;
 	color: white;
 }
+.footer_color h4{
+  color: white;
+}
 
+.footer_color a{
+  color: white;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
 /* Carousel base class */
 .carousel {
   height: 300px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
